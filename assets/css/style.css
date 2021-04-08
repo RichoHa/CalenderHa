@@ -1,0 +1,30 @@
+/*Global Parameter*/
+:root{
+    background-color: rgb(61, 170, 233);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+#headingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3em solid black;
+
+}
+#headingContainer h1{
+    color: black;
+    font-size: 3em;
+}
+
+#headingContainer p{
+    color: black;
+    font-size: 2.5em;
+}
+
+#timeContainer{
+    display: flex;
+    flex-direction: column;
+}
