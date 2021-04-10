@@ -1,6 +1,4 @@
-//Date Functionality
-var fullDate= new Date()
-document.getElementById("date").innerText = fullDate.toDateString();
+
 
 //Clear Button --> Revert Content and Clear Colour
 document.getElementById("clear").addEventListener("click", function ()
@@ -207,3 +205,106 @@ document.getElementById("Task18").addEventListener("change", function()
 {
     document.getElementById("Task18").classList.remove("green");
 })
+
+//Date Functionality
+var fullDate= new Date()
+document.getElementById("date").innerText = fullDate.toDateString();
+var hourOfDay = fullDate.getHours();
+
+if(hourOfDay<9){
+    document.getElementById("time9").classList.add("greenFont");
+    document.getElementById("time10").classList.add("greenFont");
+    document.getElementById("time11").classList.add("greenFont");
+    document.getElementById("time12").classList.add("greenFont");
+    document.getElementById("time13").classList.add("greenFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+}
+
+if(hourOfDay===9){
+    document.getElementById("time9").classList.add("redFont");
+    document.getElementById("time10").classList.add("greenFont");
+    document.getElementById("time11").classList.add("greenFont");
+    document.getElementById("time12").classList.add("greenFont");
+    document.getElementById("time13").classList.add("greenFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===10){
+    document.getElementById("time10").classList.add("redFont");
+    document.getElementById("time11").classList.add("greenFont");
+    document.getElementById("time12").classList.add("greenFont");
+    document.getElementById("time13").classList.add("greenFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===11){
+    document.getElementById("time11").classList.add("redFont");
+    document.getElementById("time12").classList.add("greenFont");
+    document.getElementById("time13").classList.add("greenFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===12){
+    document.getElementById("time12").classList.add("redFont");
+    document.getElementById("time13").classList.add("greenFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===13){
+    document.getElementById("time13").classList.add("redFont");
+    document.getElementById("time14").classList.add("greenFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===14){
+    document.getElementById("time14").classList.add("redFont");
+    document.getElementById("time15").classList.add("greenFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===15){
+    document.getElementById("time15").classList.add("redFont");
+    document.getElementById("time16").classList.add("greenFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===16){
+    document.getElementById("time16").classList.add("redFont");
+    document.getElementById("time17").classList.add("greenFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===17){
+    document.getElementById("time17").classList.add("redFont");
+    document.getElementById("time18").classList.add("greenFont");
+} 
+
+if(hourOfDay===18){
+    document.getElementById("time18").classList.add("redFont");
+}
