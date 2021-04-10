@@ -1,30 +1,109 @@
 /*Global Parameter*/
 :root{
-    background-color: rgb(61, 170, 233);
+    background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: serif;
+    --textColour: black;
 }
 
+button{
+    font-size: 1.5rem;
+    padding:.25rem 0;
+    width: 10rem;
+    max-width: 10rem;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #ccc;
+}
+
+button:focus {
+    outline:0;
+}
+
+/*Header Section*/
 #headingContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 3em solid black;
-
+    text-align: center;
+    border-bottom: 0.25em solid #ccc;
+    padding-bottom: 1em;
 }
+
 #headingContainer h1{
-    color: black;
-    font-size: 3em;
+    color: var(--textColour);
+    font-size: 2em;
 }
 
 #headingContainer p{
-    color: black;
-    font-size: 2.5em;
+    color: var(--textColour);
+    font-size: 1.5em;
+    margin: 1em;
 }
+
+#headingContainer button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 51, 51);
+    transition: transform 300ms;
+    transform: scale(1.2);
+    color: white;
+}
+
+/*TimeContainer/InputContainer Here*/
+
 
 #timeContainer{
     display: flex;
     flex-direction: column;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#timeContainer button:hover {
+    cursor: pointer;
+    background-color:rgb(149, 209, 59);
+    transition: transform 300ms;
+    transform: scale(1.2);
+}
+
+.toDoRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.toDoRow p{
+    color: var(--textColour);
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: right;
+    border-top: 0.25em solid #ccc;
+    line-height: 3em;
+    width: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.toDoRow textarea{
+    width: 70%;
+    min-height: 4em;
+    height: auto;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+.toDoRow textarea:focus{
+background-color: lightskyblue;
+}
+
+.green{
+    background-color: rgb(149, 209, 59);
 }
