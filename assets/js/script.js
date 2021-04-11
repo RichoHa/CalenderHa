@@ -208,8 +208,18 @@ document.getElementById("Task18").addEventListener("change", function()
 
 //Date Functionality
 var fullDate= new Date()
-document.getElementById("date").innerText = fullDate.toDateString();
+document.getElementById("date").innerText ="Date: " + fullDate.toDateString();
 var hourOfDay = fullDate.getHours();
+
+//timer Functionality
+function updateClock() {
+    // set the content of the element with the ID time to the formatted string
+    document.getElementById("time").innerText = "Time: " + hourOfDay + ':00';
+    // call this function again in 1000ms
+    setTimeout(updateClock, 1000);
+}
+updateClock(); // initial call
+
 
 if(hourOfDay<9){
     document.getElementById("time9").classList.add("greenFont");
