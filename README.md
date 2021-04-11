@@ -31,4 +31,5 @@ When i save, the box turns green
 When i make changes after saving, the box reverts to white.
 Added Time on top of screen.
 
-
+Snippet of Code Below:
+![Capture](https://user-images.githubusercontent.com/76611103/114290243-afd7a900-9ab0-11eb-91b5-d202ea209df2.PNG)
