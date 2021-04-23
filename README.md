@@ -1,10 +1,10 @@
 # CalenderHa
 
 Link to GITHUB Repository:
-https://github.com/RichoHa/CalenderHa
+https://github.com/RichoHa/calenderHa
 
 Link to Website page:
-https://richoha.github.io/CalenderHa/
+https://richoha.github.io/calenderHa/
 
 
 What the Calender Does
