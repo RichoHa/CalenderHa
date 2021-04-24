@@ -1,4 +1,4 @@
-# CalenderHa
+# ScheduleHa
 
 Link to GITHUB Repository:
 https://github.com/RichoHa/scheduleHa
