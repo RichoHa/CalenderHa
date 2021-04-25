@@ -8,6 +8,7 @@ https://github.com/RichoHa/scheduleHa
 
 ## List of Technology Used:
 - Utilises local storage to remember and saves user's tasks when save buttons are pressed.
+- Uses time and colour to tell users what time has passed.
 - CSS Flex and Block to make a responsive website.
 - Easy templated format to make expanding the webiste easy.
 - Utilised Hover feature for a more responsive website. 
@@ -16,8 +17,10 @@ https://github.com/RichoHa/scheduleHa
 
 
 ## Purpose of the website:
-The purpose of the website is to show people the weather forecast of the searched location.
-The weather forecast for the current day and the next five day of the searched location will be shownn.
+The purpose of the website is to allow people to input tasks for the day and save it.  
+Users are able to re-load the page and have their saved task still showing.  
+It is made clear when a task has been saved by the box turning green.  
+The page also shows users what is left for the day.  
 
 ## Web Application Mobile ScreenShot
 ![User Story Map](./assets/images/mobile-image.PNG)
