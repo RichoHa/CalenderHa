@@ -1,35 +1,30 @@
 # ScheduleHa
 
-Link to GITHUB Repository:
-https://github.com/RichoHa/scheduleHa
-
-Link to Website page:
+## Link to Deplyed Application:
 https://richoha.github.io/scheduleHa
 
+## Link to GitHub:
+https://github.com/RichoHa/scheduleHa
 
-What the Calender Does
+## List of Technology Used:
+- Utilises local storage to remember and saves user's tasks when save buttons are pressed.
+- CSS Flex and Block to make a responsive website.
+- Easy templated format to make expanding the webiste easy.
+- Utilised Hover feature for a more responsive website. 
+- Chose simple colors which is easy to look at.
+- Utilised a clean looking font. 
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future 
-(User Notes: The time colour changes)
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
 
-Additional Features 
+## Purpose of the website:
+The purpose of the website is to show people the weather forecast of the searched location.
+The weather forecast for the current day and the next five day of the searched location will be shownn.
 
-When i click into block, block is selected blue.
-When i save, the box turns green
-When i make changes after saving, the box reverts to white.
-Added Time on top of screen.
+## Web Application Mobile ScreenShot
+![User Story Map](./assets/images/mobile-image.PNG)
 
-Snippet of Code Below:
-![Capture](https://user-images.githubusercontent.com/76611103/114290243-afd7a900-9ab0-11eb-91b5-d202ea209df2.PNG)
+
+## Web Application Desktop ScreenShot
+![User Story Map](./assets/images/desktop-image.PNG)
+
+## Collaborators
+Richard (Duc) Ha: 0404 545 580 or Richard.dqh@gmail.com.
